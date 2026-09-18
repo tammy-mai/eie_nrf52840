@@ -88,7 +88,7 @@ We now need to do a few things to configure Git on your computer.
 
 GitHub disabled password authentication a while ago and instead needs some sort of key for authentication.
 
-. Run `git config --global user.name '<YOUR_NAME>'` in your terminal
+. Run `git config --global user.name '<TAMMY_MAI>'` in your terminal
 . Run `git config --global user.email '<YOUR_GITHUB_EMAIL>'` in your terminal
 . Run `git config credential.helper 'store'` in your terminal
 . Follow github's guide to https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key[generating a ssh key].
