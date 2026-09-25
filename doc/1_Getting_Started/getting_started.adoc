@@ -117,10 +117,10 @@ If you have another preferred editor, you can probably set it as the default if 
 3. Change the directory to the zephyr projects directory `cd zephyr-projects`
 4. Go to the repo you created during the #github-setup[github setup] and click on the green code button and copy the SSH URL. The URL should look something like `git@github.com:<your account>/eie_nrf52840.git` depending on what you named the repository. **DO NOT DOWNLOAD THE CODE AS A ZIP**
 5. Clone the EIE source code `git clone <Your Repo Link Here> eie_nrf52840`
-6. Move into the cloned repo `cd eie_nrf52840`
-7. Sync the UV project `uv sync`
-8. Start the virtual environment `source .venv/bin/activate` or `source .venv/Scripts/activate` on windows
-9. Initialize the zephyr project `west init -l`
+6. Move into the cloned repo `cd eie_nrf52840`    ME- copy this when you close the thing and then you wanna open it back up into your project 
+7. Sync the UV project `uv sync`            ME - this too maybe 
+8. Start the virtual environment `source .venv/bin/activate` or `source .venv/Scripts/activate` on windows        ME - this too
+9. Initialize the zephyr project `west init -l`    ME- NOT THIS STOP 
 10. Update west `west update`
 11. Run `west zephyr-export`to create necessary files for cmake to run
 12. Install the required python packages for west `west packages pip --install`
